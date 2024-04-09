@@ -25,7 +25,7 @@ Therefore, it's suggested to split the subscribers by functionality and avoid pu
 
 Examples:
 
-- if you app does things on Sales and Purchase, create a Sales-subs codeunit, and a Purchase-subs.
+- if your app does things on Sales and Purchase, create a Sales-subs codeunit, and a Purchase-subs.
 - if you have multiple functionalities in your app (let's call'm modules), create a subs-codeunit per module, and only add the subscribers in there that are necessary for that module.
 
 ### Bad code
